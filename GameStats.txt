@@ -1,0 +1,1 @@
+GameStats: Day: 292, Gathered resources: 3910, Experience gained: 843226, Gathered money: 1689756, Gathered Essence: 12
