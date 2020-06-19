@@ -77,7 +77,8 @@ public class Main {
 			if (boost.getHowLong() > 0) {
 				boost.setHowLong(boost.getHowLong() - 1);
 				if (boost.getHowLong() == 0) {
-					System.out.println("You have no longer active boost");
+					System.out.println("You no longer have an active boost");
+					//opravil jsem gramatickou chybu
 
 				}
 			}

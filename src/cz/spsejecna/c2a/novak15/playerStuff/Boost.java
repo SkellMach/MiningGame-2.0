@@ -5,14 +5,14 @@ public class Boost {
 	String whatBoost;
 	int howMany;
 	int howLong;
-	boolean IsActivate;
+	boolean IsActivated;
 
-	public boolean isIsActivate() {
-		return IsActivate;
+	public boolean isIsActive() {
+		return IsActive;
 	}
 
-	public void setIsActivate(boolean isActivate) {
-		IsActivate = isActivate;
+	public void setIsActive(boolean isActive) {
+		IsActive = isActive;
 	}
 
 	public String getBoostName() {
@@ -53,13 +53,13 @@ public class Boost {
 				+ " %, for " + howLong + " day.";
 	}
 
-	public Boost(String boostName, String whatBoost, int howMany, int howLong, boolean isActivate) {
+	public Boost(String boostName, String whatBoost, int howMany, int howLong, boolean isActive) {
 		super();
 		this.boostName = boostName;
 		this.whatBoost = whatBoost;
 		this.howMany = howMany;
 		this.howLong = howLong;
-		this.IsActivate = isActivate;
+		this.IsActive = isActive;
 	}
 
 }

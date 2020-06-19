@@ -11,7 +11,8 @@ public class Home {
 
 		if (energy.getEnergie() >= energy.getMaxEnergie()) {
 			// energy.setEnergie(energy.getMaxEnergie());
-			System.out.println("you have already max energy");
+			System.out.println("You already have max energy");
+			//Opravení gramatické chyby
 		} else {
 			System.out.println("You gain: " + energy.getMaxEnergie() / 4 + " energy");
 		}

@@ -18,13 +18,14 @@ public class SecretShop {
 		int choose = 0;// helping variable
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("hey... you finally arrived");
+		System.out.println("Hey... you finally arrived");
 		Thread.sleep(250);
-		System.out.println("Welcome to secret shop ");
+		System.out.println("welcome to secret shop ");
 		Thread.sleep(250);
 		System.out.println("some items are maybe illegal so, yeah...");
 		Thread.sleep(250);
-		System.out.println("don't talk about it");
+		System.out.println("don't talk about them");
+		//mala uprava
 		Thread.sleep(250);
 		/////////////////////// shop menu IN ALPHA!!!!
 		System.out.println("Shop menu:");
@@ -186,3 +187,4 @@ public class SecretShop {
 		}
 	}
 }
+

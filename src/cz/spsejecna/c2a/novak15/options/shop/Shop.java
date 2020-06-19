@@ -15,9 +15,9 @@ public class Shop {
 		Boost food = new Boost(null, null, 0, 0, false);
 		int foodCost = 0;
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Greeting's traveler");
+		System.out.println("Greetings traveler");
 		Thread.sleep(250);
-		System.out.println("Welcome to my little shop, here you can upgrade your pickaxe, or buy some Fresh food :)");
+		System.out.println("Welcome to my little shop, here you can upgrade your pickaxe, or buy some fresh food :)");
 		Thread.sleep(1000);
 		System.out.println("Shop menu:");
 		Thread.sleep(250);
@@ -41,7 +41,8 @@ public class Shop {
 		Thread.sleep(200);
 		System.out.println("0...  Leave shop");
 		Thread.sleep(500);
-		System.out.println("Warning: if you have already activated boost, you will lost current boost!!!");
+		System.out.println("Warning: if you already have an active boost, you will lose your current boost!!!");
+		//Oprava gramatiky
 		Thread.sleep(250);
 
 		do {

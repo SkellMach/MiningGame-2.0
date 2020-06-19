@@ -42,21 +42,22 @@ public class LevelingSystem {
 				switch (option) {
 				case 1:
 					player.setSpeed(player.getSpeed() + 1);
-					System.out.println("*you feel be faster than before*");
+					System.out.println("*you feel faster than before*");
 					System.out.println("Your currrent speed lvl: " + player.getSpeed());
 					break;
 				case 2:
 					player.setEfficiency(player.getEfficiency() + 1); // efficiency(coal, diamond, emerald, gold, iron, kobalt, magnetit, uran);
-					System.out.println("*you feel be luckier than before*");
+					System.out.println("*you feel luckier than before*");
 					System.out.println("Your currrent efficiency lvl: " + player.getEfficiency());
 					break;
 				case 3:
 					player.setStrength(player.getStrength() + 1);
-					System.out.println("*you feel be stronger than before*");
+					System.out.println("*you feel stronger than before*");
 					System.out.println("Your currrent strength lvl: " + player.getStrength());
 					break;
 				default:
 					throw new MyException("Wrong number, write 1-3 ");
+					//Opravil jsem zde gramatické chyby
 
 				}
 			} catch (MyException e) {

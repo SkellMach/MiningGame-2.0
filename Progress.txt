@@ -1,10 +1,10 @@
-Player name: Tomas, level: 35, speed: 30, efficiency: 23, strength: 15, pickaxe lvl: 5, money: 1666756, xp: 709226, essence: 81
+Player name: Tomas, level: 36, speed: 30, efficiency: 24, strength: 15, pickaxe lvl: 5, money: 1089110, xp: 720217, essence: 161
 
-Inventory: coal: 9567, iron: 9550, kobalt: 9528, magnetit: 9516, gold: 6864, emerald: 3980, diamond: 1833, uran: 1517
+Inventory: coal: 10063, iron: 10046, kobalt: 10024, magnetit: 10012, gold: 7216, emerald: 4236, diamond: 1929, uran: 1661
 
-You have activate boost called: Delicious food, it's boosting Gold by 150 %, for 7 day.
+You don't have any boost active
 
-Your energy: 90/200
+Your energy: 80/200
 
 Inventory of items: 
 Ring: true
@@ -15,6 +15,6 @@ Glove: false
 Necklace: false
 Crown: false
 Shoulders: false
-Boots: false
+Boots: true
 
 
